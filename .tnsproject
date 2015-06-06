@@ -1,0 +1,6 @@
+{
+	"id": "org.nativescript.NativeApp",
+	"tns-android": {
+		"version": "0.10.0"
+	}
+}

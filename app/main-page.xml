@@ -1,0 +1,18 @@
+<Page loaded="pageLoaded" background-color="blue">
+    
+        <StackLayout orientation="vertical">
+
+            <TextField width="300px" text="{{txtKeyword}}"  hint="search keyword" id="txtKeyword" />
+
+            <Button text="Search" height="50px" tap="signin" style="background-color:green;width:300px;border:none;font-size:20px;" />
+            
+            <ListView style="margin-top:50px;" items="{{ images }}">
+                <ListView.itemTemplate>
+                    
+                    <Image stretch="fill" height="200px" src="{{img}}" />
+                    
+                </ListView.itemTemplate>
+            </ListView>
+        </StackLayout>
+
+</Page>
